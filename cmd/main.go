@@ -45,7 +45,5 @@ func runMigration(){
 		panic(err)
 	}
 
-	if err := m.Up(); err != nil {
-		panic(err)
-	}
+	m.Up()
 }
