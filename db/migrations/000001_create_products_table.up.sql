@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS products(
+   id serial PRIMARY KEY,
+   name VARCHAR (50) NOT NULL,
+   price NUMERIC(10, 2) NOT NULL
+);
